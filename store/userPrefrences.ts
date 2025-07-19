@@ -1,4 +1,3 @@
-import { useAtom } from "jotai";
 import { atomWithStorage } from "jotai/utils";
 
 type Theme = boolean;
