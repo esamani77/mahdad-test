@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <div
-      className={`w-full h-[calc(100dvh-72px)] overflow-y-auto my-9 p-6 ${
+      className={`w-full h-[calc(100dvh-72px)] overflow-y-auto p-6 ${
         theme ? "bg-black text-white" : "bg-white text-black"
       }  ${fontSizeOptions[fontSize]}`}
     >
